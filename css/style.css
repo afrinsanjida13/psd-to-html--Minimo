@@ -1,0 +1,269 @@
+/* common start */
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#626262;
+}
+/* common end */
+/* header start */
+header{
+	padding: 25px 0;
+	/*border: 1px solid blue;*/
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.logo{
+	margin-top: 12px;
+	float: left;
+	width: 12%;
+	/*border: 1px solid green;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 65%;
+	/*border: 1px solid green;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	margin: 0 50px;/*for border hover*/
+	display: inline-block;
+	color:#626262 ;
+	border-bottom: 1px solid transparent; /*for border hover*/
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/* header end */
+/* banner start */
+.banner{
+
+}
+.b_img{
+
+}
+.b_img img{
+	width: 100%;
+}
+/* banner end */
+/* perfect start */
+.perfect{
+	padding: 100px 0 60px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+.p_content{
+
+}
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+
+.c_title{
+	margin: 20px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 26px;
+}
+.mb_45{
+	margin-bottom: 40px;
+}
+/* perfect end */
+/* blog start */
+.blog{
+	padding: 20px 0 60px;
+}
+.b_content{
+	overflow: hidden;
+}
+.b_single{
+	margin-top: 80px;
+	float: left;
+	width: 47%;
+	/*border: 1px solid green;*/
+}
+.b_single:nth-child(even){
+	margin-left: 6%;
+}
+.s_img{
+	margin-bottom: 25px;
+}
+.s_img img{
+	width: 100%;
+}
+/* blog end */
+/* news start */
+.news{
+	padding: 70px 0;
+	background-color: lightgrey;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	margin-top: 0;
+	margin-bottom: 70px;
+	color: #f0f0f0;
+
+}
+.s_form{
+	position: relative;
+	margin: 0 auto;
+	width: 400px;
+	/*border: 2px solid blue;*/
+}
+.s_form input{
+	font-family:'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #333333;
+	background: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	/*top: 0;*/
+	top: 15px; /* after inspection */
+	right: 0;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+.s_form button: focus{
+	outline: 0;
+}
+.s_form button img{
+	
+}
+/* news end */
+/*feature start*/
+.f_content{
+	overflow: hidden;
+	padding: 80px 0;
+}
+/*feature end*/
+/*load start*/
+.position{
+	width: 1200px;
+	min-height: 400px;
+	/*border: 1px solid green;*/
+	margin: 0 auto;
+	padding: 80px 0;
+	position: relative;
+
+}
+.box{
+	position: absolute;
+}
+.button{
+	width: 160px;
+    height: 45px;
+    border: 1px solid #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #626262;
+    text-align: center;
+    top: 190px;
+    left: 500px;
+    padding-top: 17px;
+}
+.button a{
+	color: #626262 ;
+	background-color: white;
+	text-decoration: none;
+}
+/*.button a:hover{
+	color: white;
+	background-color: #f0f0f0 ;
+	transition-duration: 3s;
+}*/
+
+/*load end*/
+/* footer start */
+.footer{
+	background-color: #f0f0f0;
+}
+.ft_content{
+
+}
+.terms{
+	width: 50%;
+	float: left;
+}
+.terms ul{
+	float: left;
+}
+.terms ul li{
+	
+	float: left;
+	list-style: none;
+}
+.terms ul li p{
+	margin: 0 50px;
+	display: inline-block;
+	text-decoration: none;
+}
+.terms ul li:last-child p{
+	margin: 0 20px;
+}
+.media{
+	width: 30%;
+	float: right;
+}
+.media ul{
+	float: right;
+}
+.media ul li{
+	float: left;
+	list-style: none;
+}
+.media ul li a{
+	margin: 0 15px;
+	display: inline-block;
+	text-decoration: none;
+	color: #333333;
+}
+.media ul li img{
+	margin: 0 15px;
+}
+
+/* footer end */
